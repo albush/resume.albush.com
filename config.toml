@@ -1,0 +1,213 @@
+# Page settings
+
+baseurl = "http://resume.albush.com/"
+languageCode = "en-us"
+title = "Alan Bush's Resume"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-15275173-7"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Resume for Alan Bush, technical evangelist and community manager"
+    author = "Alan Bush"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-6.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Alan Bush"
+        tagline = "Community and Brand Manager"
+        avatar = "square.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: al@albush.com"
+        title = "al@albush.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+12102436758"
+        title = "+12102436758"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//albush.com"
+        title = "albush.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/adbush"
+        title = "linkedin.com/in/adbush"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-cloud-download"
+        url = "//resume.albush.com/resume.pdf"
+        title = "Download Resume"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/albush"
+        title = "github.com/albush"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/alanbush"
+        title = "@alanbush"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Technical Theatre Program"
+        college = "University of Central Missouri"
+        dates = "1998 - 2002"
+
+    # Languages section
+    [params.languages]
+        enable = true
+        title = "Languages"
+
+        [[params.languages.list]]
+        language = "English"
+        level = "Native"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Coffee"
+
+        [[params.interests.list]]
+        interest = "Static Websites"
+
+        [[params.interests.list]]
+        interest = "Improvisational Comedy"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "I help connect people with the information, tools, and collaborators they need to solve business problems with today's leading technology. I want to help your company tell your story so that your customers use your products more frequently, with higher satisfaction, and fewer support requirements. Ask me about the time my CEO put me in a straight jacket."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Technical Community Manager"
+        dates = "2014 - 2017"
+        company = "Rackspace, San Antonio"
+        details = "Collaborated with Rackspace customers, employees, and the public to achieve success in cloud computing through one-on-one and one-to-many interactions — including community forum support, video tutorials, public speaking, blogging, and social media."
+
+        [[params.jobs.list]]
+        position = "Cloud Launch Manager"
+        dates = "2012 - 2014"
+        company = "Rackspace, San Antonio"
+        details = "Created the Cloud Launch Team. This team was a collection Cloud mentors who collaborated with new customers to find the best solution for their specific use cases, educated them on cloud best practices, and made sure their initial project with Rackspace was successful. Awarded the Rackspace Fanatical Jacket - Rackspace's highest honor - for customer support above and beyond expectations."
+
+        [[params.jobs.list]]
+        position = "Implementation Consultant"
+        dates = "2010 - 2010"
+        company = "Central Desktop (iMeet Central) - Remote"
+        details = "Worked with new clients to analyze business processes and develop customized plans to improve their collaboration using Central Desktop software. Created additional sources of revenue by finding expanded uses for Central Desktop software within each client's use case. Managed implementation and training for a variety of customers, including MLB.com, IEEE, and Sesame Workshop."
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "A few projects I've been working on."
+
+        [[params.projects.list]]
+        title = "Office Hours Podcast"
+        url = "http://ohpodcast.com"
+        tagline = "A weekly podcast about best cloud computing, the technology that powers it, and the people that make it all work."
+
+        [[params.projects.list]]
+        title = "Beer Reviewer, SA Flavor Magazine"
+        url = "http://www.saflavor.com/author/alan/"
+        tagline = "Local beer reviewer for San Antonio food and culture blog."
+
+        [[params.projects.list]]
+        title = "Improv Your Blog"
+        url = "http://albush.com/post/improvyourblog/"
+        tagline = "Presentation and collatoral for a spekaing engaement at WordCamp San Antonio. Presented on how to use improvisational comedy techniques for better content creation."
+
+    # Skills section
+    [params.skills]
+        enable = false
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Python & Django"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Javascript & jQuery"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Angular"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Ruby on Rails"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Sketch & Photoshop"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    #
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""
