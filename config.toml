@@ -1,15 +1,13 @@
 # Page settings
 
 baseurl = "http://resume.albush.com/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Alan Bush's Resume"
 theme = "hugo-orbit-theme"
-googleAnalytics = "UA-15275173-7"
+googleAnalytics = "UA-15275173-9"
 
-# Do not build files for websites. Need them? Set to false
-disableRSS = true
-disableSitemap = true
-disable404 = true
+# Do not build files for websites. Need them? Don't inlcue them in the map
+disableKinds = ["404", "sitemap", "RSS"]
 
 [params]
 
@@ -31,7 +29,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Alan Bush"
-        tagline = "Community and Brand Manager"
+        tagline = "Technical Evangelist, Communicator, Customer Success Fanatic"
         avatar = "square.png"
 
     # Contact section
@@ -65,7 +63,7 @@ disable404 = true
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-cloud-download"
-        url = "//resume.albush.com/resume.pdf"
+        url = "//resume.albush.com/Alan-Bush-Resume.pdf"
         title = "Download Resume"
 
         [[params.contact.list]]
@@ -128,7 +126,13 @@ disable404 = true
     [params.experiences]
         enable = true
         icon = "fa-briefcase"
-        title = "Experiences"
+        title = "Experience"
+
+        [[params.jobs.list]]
+        position = "Project Manager"
+        dates = "2017 - Present"
+        company = "Dialpad, Inc, San Antonio"
+        details = "Creating customer success proactively by owning the relationship with our customers during the initial deployment of Dialpad. I act as project manager to establish and meet milestones, tasks and timelines, and lead online and onsite end user training."
 
         [[params.jobs.list]]
         position = "Technical Community Manager"
@@ -144,7 +148,7 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Implementation Consultant"
-        dates = "2010 - 2010"
+        dates = "2010 - 2012"
         company = "Central Desktop (iMeet Central) - Remote"
         details = "Worked with new clients to analyze business processes and develop customized plans to improve their collaboration using Central Desktop software. Created additional sources of revenue by finding expanded uses for Central Desktop software within each client's use case. Managed implementation and training for a variety of customers, including MLB.com, IEEE, and Sesame Workshop."
 
@@ -185,10 +189,6 @@ disable404 = true
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
-
-        [[params.skills.list]]
         skill = "HTML5 & CSS"
         level = "95%"
 
@@ -196,9 +196,6 @@ disable404 = true
         skill = "Ruby on Rails"
         level = "75%"
 
-        [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
 
     # Footer section
 
@@ -210,4 +207,4 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "Alan Bush"
