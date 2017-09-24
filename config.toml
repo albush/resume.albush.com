@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://resume.albush.com/"
+baseurl = "//resume.albush.com/"
 languageCode = "en"
 title = "Alan Bush's Resume"
 theme = "hugo-orbit-theme"
@@ -161,17 +161,17 @@ disableKinds = ["404", "sitemap", "RSS"]
 
         [[params.projects.list]]
         title = "Office Hours Podcast"
-        url = "http://ohpodcast.com"
+        url = "//ohpodcast.com"
         tagline = "A weekly podcast about best cloud computing, the technology that powers it, and the people that make it all work."
 
         [[params.projects.list]]
         title = "Beer Reviewer, SA Flavor Magazine"
-        url = "http://www.saflavor.com/author/alan/"
+        url = "//www.saflavor.com/author/alan/"
         tagline = "Local beer reviewer for San Antonio food and culture blog."
 
         [[params.projects.list]]
         title = "Improv Your Blog"
-        url = "http://albush.com/post/improvyourblog/"
+        url = "//albush.com/post/improvyourblog/"
         tagline = "Presentation and collatoral for a spekaing engaement at WordCamp San Antonio. Presented on how to use improvisational comedy techniques for better content creation."
 
     # Skills section

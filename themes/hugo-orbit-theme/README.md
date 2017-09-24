@@ -25,7 +25,7 @@ This is a Hugo port of [Orbit](//github.com/xriley/Orbit-Theme) - great looking 
 
 ## Demo
 
-You can see it in action on [Hugo Themes site](http://themes.gohugo.io/theme/hugo-orbit-theme/).
+You can see it in action on [Hugo Themes site](//themes.gohugo.io/theme/hugo-orbit-theme/).
 
 ## Contents
 
